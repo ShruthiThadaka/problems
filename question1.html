@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>.count the vowels and constants in string</h4>
+    <script>
+
+        //count the number of vowels and condonants in a given string
+
+        var str = prompt("Enter a string:");
+        vowelsCount = 0;
+        consonantCount = 0;
+        for(i = 0;i<= str.length-1;i++){
+            if(str[i]=='a'|| str[i]=='A'|| str[i]=='e'|| str[i]=='E'|| str[i]=='i'|| str[i]=='I'|| str[i]=='o'|| str[i]=='O'|| str[i]=='u'|| str[i] == 'U'){
+                vowelsCount++;
+            }
+            // else if(str[i].test(/[a-zA-Z]/)){
+            // }
+            else{
+              consonantCount++;
+        }
+
+        }
+        console.log(`Vowels count is ${vowelsCount}`);
+        console.log(`Consonants count is ${consonantCount}`);
+
+
+
+
+    </script>
+</body>
+</html>
